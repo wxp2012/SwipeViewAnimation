@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+RandomColor.h
 //  SwipeViewAnimation
 //
 //  Created by xp_mac on 16/1/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIColor (RandomColor)
 
 @end
-
