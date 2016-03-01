@@ -15,6 +15,7 @@
 
 @interface SwipeImageView ()
 
+
 @property (nonatomic,assign) CGPoint centerPoint;
 
 @end
