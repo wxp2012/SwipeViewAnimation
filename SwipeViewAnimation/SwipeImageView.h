@@ -10,4 +10,10 @@
 
 @interface SwipeImageView : UIView
 
+@property (nonatomic,strong) UIImageView *showImageV;
+@property (nonatomic,copy) void(^block)(SwipeImageView *);
+@property (nonatomic,assign) CGRect viewFrame;
+
+- (instancetype) initWithTheView:(UIView *)mainV;
+
 @end
